@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1,
+    "purchase_request_id": 1,
+    "product": "Equipo de Refrigeración",
+    "quantity": 2,
+    "price": 20000,
+    "currency": "CLP"
+  },
+  {
+    "id": 2,
+    "purchase_request_id": 1,
+    "product": "Computadora Portátil",
+    "quantity": 5,
+    "price": 4500000,
+    "currency": "CLP"
+  },
+  {
+    "id": 3,
+    "purchase_request_id": 2,
+    "product": "Impresora Multifunción",
+    "quantity": 3,
+    "price": 80000,
+    "currency": "MXN"
+  },
+  {
+    "id": 4,
+    "purchase_request_id": 2,
+    "product": "Silla Ergonómica",
+    "quantity": 10,
+    "price": 150000,
+    "currency": "MXN"
+  },
+  {
+    "id": 5,
+    "purchase_request_id": 3,
+    "product": "Equipo de Refrigeración",
+    "quantity": 1,
+    "price": 1200000,
+    "currency": "COP"
+  },
+  {
+    "id": 6,
+    "purchase_request_id": 3,
+    "product": "Mesa de Conferencia",
+    "quantity": 2,
+    "price": 300000,
+    "currency": "COP"
+  },
+  {
+    "id": 7,
+    "purchase_request_id": 4,
+    "product": "Cámara de Seguridad",
+    "quantity": 4,
+    "price": 50000,
+    "currency": "USD"
+  },
+  {
+    "id": 8,
+    "purchase_request_id": 4,
+    "product": "Estante de Almacenamiento",
+    "quantity": 8,
+    "price": 250000,
+    "currency": "USD"
+  },
+  {
+    "id": 9,
+    "purchase_request_id": 5,
+    "product": "Aire Acondicionado",
+    "quantity": 3,
+    "price": 1800000,
+    "currency": "CLP"
+  },
+  {
+    "id": 10,
+    "purchase_request_id": 5,
+    "product": "Proyector Multimedia",
+    "quantity": 1,
+    "price": 200000,
+    "currency": "CLP"
+  },
+  {
+    "id": 11,
+    "purchase_request_id": 6,
+    "product": "Escritorio de Oficina",
+    "quantity": 6,
+    "price": 35000,
+    "currency": "MXN"
+  },
+  {
+    "id": 12,
+    "purchase_request_id": 6,
+    "product": "Sistema de Sonido",
+    "quantity": 2,
+    "price": 120000,
+    "currency": "MXN"
+  },
+  {
+    "id": 13,
+    "purchase_request_id": 7,
+    "product": "Teclado Inalámbrico",
+    "quantity": 5,
+    "price": 50000,
+    "currency": "COP"
+  },
+  {
+    "id": 14,
+    "purchase_request_id": 7,
+    "product": "Sofá Ejecutivo",
+    "quantity": 2,
+    "price": 4000000,
+    "currency": "COP"
+  },
+  {
+    "id": 15,
+    "purchase_request_id": 8,
+    "product": "Lámpara de Escritorio",
+    "quantity": 4,
+    "price": 60000,
+    "currency": "USD"
+  },
+  {
+    "id": 16,
+    "purchase_request_id": 8,
+    "product": "Máquina de Café",
+    "quantity": 1,
+    "price": 100000,
+    "currency": "USD"
+  },
+  {
+    "id": 17,
+    "purchase_request_id": 9,
+    "product": "Equipo de Refrigeración",
+    "quantity": 2,
+    "price": 120000,
+    "currency": "CLP"
+  },
+  {
+    "id": 18,
+    "purchase_request_id": 9,
+    "product": "Ergómetro",
+    "quantity": 1,
+    "price": 3500000,
+    "currency": "CLP"
+  },
+  {
+    "id": 19,
+    "purchase_request_id": 10,
+    "product": "Estación de Trabajo",
+    "quantity": 3,
+    "price": 90000,
+    "currency": "MXN"
+  },
+  {
+    "id": 20,
+    "purchase_request_id": 10,
+    "product": "Sistema de Alarma",
+    "quantity": 5,
+    "price": 200000,
+    "currency": "MXN"
+  },
+  {
+    "id": 21,
+    "purchase_request_id": 11,
+    "product": "Altavoces Bluetooth",
+    "quantity": 4,
+    "price": 80000,
+    "currency": "COP"
+  },
+  {
+    "id": 22,
+    "purchase_request_id": 11,
+    "product": "Mesa de Reuniones",
+    "quantity": 2,
+    "price": 4000000,
+    "currency": "COP"
+  },
+  {
+    "id": 23,
+    "purchase_request_id": 12,
+    "product": "Cámara Web HD",
+    "quantity": 3,
+    "price": 120000,
+    "currency": "USD"
+  },
+  {
+    "id": 24,
+    "purchase_request_id": 12,
+    "product": "Silla Ergonómica",
+    "quantity": 8,
+    "price": 250000,
+    "currency": "USD"
+  },
+  {
+    "id": 25,
+    "purchase_request_id": 13,
+    "product": "Computadora Portátil",
+    "quantity": 1,
+    "price": 150000,
+    "currency": "CLP"
+  },
+  {
+    "id": 26,
+    "purchase_request_id": 13,
+    "product": "Pizarra Magnética",
+    "quantity": 2,
+    "price": 3500000,
+    "currency": "CLP"
+  },
+  {
+    "id": 27,
+    "purchase_request_id": 14,
+    "product": "Router Inalámbrico",
+    "quantity": 5,
+    "price": 80000,
+    "currency": "MXN"
+  },
+  {
+    "id": 28,
+    "purchase_request_id": 14,
+    "product": "Escáner de Documentos",
+    "quantity": 1,
+    "price": 100000,
+    "currency": "MXN"
+  },
+  {
+    "id": 29,
+    "purchase_request_id": 15,
+    "product": "Computadora Portátil",
+    "quantity": 2,
+    "price": 120000,
+    "currency": "COP"
+  },
+  {
+    "id": 30,
+    "purchase_request_id": 15,
+    "product": "Estante para Libros",
+    "quantity": 3,
+    "price": 3000000,
+    "currency": "COP"
+  },
+  {
+    "id": 31,
+    "purchase_request_id": 16,
+    "product": "Cafetera Automática",
+    "quantity": 1,
+    "price": 60000,
+    "currency": "USD"
+  },
+  {
+    "id": 32,
+    "purchase_request_id": 16,
+    "product": "Mesa de Trabajo",
+    "quantity": 4,
+    "price": 200000,
+    "currency": "USD"
+  },
+  {
+    "id": 33,
+    "purchase_request_id": 17,
+    "product": "Lápiz Óptico",
+    "quantity": 3,
+    "price": 90000,
+    "currency": "CLP"
+  },
+  {
+    "id": 34,
+    "purchase_request_id": 17,
+    "product": "Silla Ergonómica",
+    "quantity": 6,
+    "price": 4000000,
+    "currency": "CLP"
+  },
+  {
+    "id": 35,
+    "purchase_request_id": 18,
+    "product": "Silla Ergonómica",
+    "quantity": 2,
+    "price": 120000,
+    "currency": "MXN"
+  },
+  {
+    "id": 36,
+    "purchase_request_id": 18,
+    "product": "Computadora Portátil",
+    "quantity": 5,
+    "price": 250000,
+    "currency": "MXN"
+  },
+  {
+    "id": 37,
+    "purchase_request_id": 19,
+    "product": "Smart TV 4K",
+    "quantity": 1,
+    "price": 1800000,
+    "currency": "COP"
+  },
+  {
+    "id": 38,
+    "purchase_request_id": 19,
+    "product": "Mesa de Centro",
+    "quantity": 2,
+    "price": 3000000,
+    "currency": "COP"
+  },
+  {
+    "id": 39,
+    "purchase_request_id": 20,
+    "product": "Horno de Microondas",
+    "quantity": 3,
+    "price": 80000,
+    "currency": "USD"
+  },
+  {
+    "id": 40,
+    "purchase_request_id": 20,
+    "product": "Silla Ergonómica",
+    "quantity": 8,
+    "price": 150000,
+    "currency": "USD"
+  },
+  {
+    "id": 41,
+    "purchase_request_id": 21,
+    "product": "Auriculares Inalámbricos",
+    "quantity": 4,
+    "price": 120000,
+    "currency": "CLP"
+  },
+  {
+    "id": 42,
+    "purchase_request_id": 21,
+    "product": "Mesa de Noche",
+    "quantity": 2,
+    "price": 3500000,
+    "currency": "CLP"
+  },
+  {
+    "id": 43,
+    "purchase_request_id": 22,
+    "product": "Batería Externa",
+    "quantity": 5,
+    "price": 60000,
+    "currency": "MXN"
+  },
+  {
+    "id": 44,
+    "purchase_request_id": 22,
+    "product": "Silla Ergonómica",
+    "quantity": 1,
+    "price": 100000,
+    "currency": "MXN"
+  },
+  {
+    "id": 45,
+    "purchase_request_id": 23,
+    "product": "Máquina de Ejercicios",
+    "quantity": 2,
+    "price": 120000,
+    "currency": "COP"
+  },
+  {
+    "id": 46,
+    "purchase_request_id": 23,
+    "product": "Librero Modular",
+    "quantity": 3,
+    "price": 3000000,
+    "currency": "COP"
+  },
+  {
+    "id": 47,
+    "purchase_request_id": 24,
+    "product": "Ventilador de Torre",
+    "quantity": 4,
+    "price": 80000,
+    "currency": "USD"
+  },
+  {
+    "id": 48,
+    "purchase_request_id": 24,
+    "product": "Mesa de Jardín",
+    "quantity": 1,
+    "price": 200000,
+    "currency": "USD"
+  },
+  {
+    "id": 49,
+    "purchase_request_id": 25,
+    "product": "Plancha de Vapor",
+    "quantity": 2,
+    "price": 120000,
+    "currency": "CLP"
+  },
+  {
+    "id": 50,
+    "purchase_request_id": 25,
+    "product": "Taburete Alto",
+    "quantity": 5,
+    "price": 3500000,
+    "currency": "CLP"
+  },
+  {
+    "id": 51,
+    "purchase_request_id": 26,
+    "product": "Cepillo Eléctrico",
+    "quantity": 3,
+    "price": 60000,
+    "currency": "MXN"
+  },
+  {
+    "id": 52,
+    "purchase_request_id": 26,
+    "product": "Silla de Juego",
+    "quantity": 1,
+    "price": 100000,
+    "currency": "MXN"
+  },
+  {
+    "id": 53,
+    "purchase_request_id": 27,
+    "product": "Frigobar",
+    "quantity": 4,
+    "price": 120000,
+    "currency": "COP"
+  },
+  {
+    "id": 54,
+    "purchase_request_id": 27,
+    "product": "Mesa de Estudio",
+    "quantity": 2,
+    "price": 3000000,
+    "currency": "COP"
+  },
+  {
+    "id": 55,
+    "purchase_request_id": 28,
+    "product": "Licuadora",
+    "quantity": 5,
+    "price": 80000,
+    "currency": "USD"
+  },
+  {
+    "id": 56,
+    "purchase_request_id": 28,
+    "product": "Silla Plegable para Playa",
+    "quantity": 1,
+    "price": 200000,
+    "currency": "USD"
+  },
+  {
+    "id": 57,
+    "purchase_request_id": 29,
+    "product": "Cámara de Video",
+    "quantity": 2,
+    "price": 120000,
+    "currency": "CLP"
+  },
+  {
+    "id": 58,
+    "purchase_request_id": 29,
+    "product": "Mesa de Buffet",
+    "quantity": 3,
+    "price": 3500000,
+    "currency": "CLP"
+  },
+  {
+    "id": 59,
+    "purchase_request_id": 30,
+    "product": "Procesador de Alimentos",
+    "quantity": 1,
+    "price": 60000,
+    "currency": "MXN"
+  },
+  {
+    "id": 60,
+    "purchase_request_id": 30,
+    "product": "Silla de Acampar",
+    "quantity": 4,
+    "price": 100000,
+    "currency": "MXN"
+  },
+  {
+    "id": 61,
+    "purchase_request_id": 31,
+    "product": "Reloj Despertador",
+    "quantity": 3,
+    "price": 90000,
+    "currency": "COP"
+  },
+  {
+    "id": 62,
+    "purchase_request_id": 31,
+    "product": "Silla Alta para Bebé",
+    "quantity": 6,
+    "price": 4000000,
+    "currency": "COP"
+  },
+  {
+    "id": 63,
+    "purchase_request_id": 32,
+    "product": "Báscula Digital",
+    "quantity": 2,
+    "price": 120000,
+    "currency": "USD"
+  },
+  {
+    "id": 64,
+    "purchase_request_id": 32,
+    "product": "Mesa de Comedor",
+    "quantity": 5,
+    "price": 250000,
+    "currency": "USD"
+  },
+  {
+    "id": 65,
+    "purchase_request_id": 33,
+    "product": "Humidificador",
+    "quantity": 1,
+    "price": 1800000,
+    "currency": "CLP"
+  },
+  {
+    "id": 66,
+    "purchase_request_id": 33,
+    "product": "Mesa de Bar",
+    "quantity": 2,
+    "price": 3000000,
+    "currency": "CLP"
+  },
+  {
+    "id": 67,
+    "purchase_request_id": 34,
+    "product": "Café en Grano",
+    "quantity": 3,
+    "price": 80000,
+    "currency": "MXN"
+  },
+  {
+    "id": 68,
+    "purchase_request_id": 34,
+    "product": "Silla Giratoria",
+    "quantity": 1,
+    "price": 200000,
+    "currency": "MXN"
+  },
+  {
+    "id": 69,
+    "purchase_request_id": 35,
+    "product": "Enfriador de Vinos",
+    "quantity": 2,
+    "price": 120000,
+    "currency": "COP"
+  },
+  {
+    "id": 70,
+    "purchase_request_id": 35,
+    "product": "Mesa de Ping Pong",
+    "quantity": 3,
+    "price": 3500000,
+    "currency": "COP"
+  },
+  {
+    "id": 71,
+    "purchase_request_id": 36,
+    "product": "Tostadora de Pan",
+    "quantity": 5,
+    "price": 60000,
+    "currency": "USD"
+  },
+  {
+    "id": 72,
+    "purchase_request_id": 36,
+    "product": "Silla para Niños",
+    "quantity": 1,
+    "price": 100000,
+    "currency": "USD"
+  },
+  {
+    "id": 73,
+    "purchase_request_id": 37,
+    "product": "Lavadora de Ropa",
+    "quantity": 4,
+    "price": 120000,
+    "currency": "CLP"
+  },
+  {
+    "id": 74,
+    "purchase_request_id": 37,
+    "product": "Mesa de Escritura",
+    "quantity": 2,
+    "price": 3000000,
+    "currency": "CLP"
+  },
+  {
+    "id": 75,
+    "purchase_request_id": 38,
+    "product": "Secador de Cabello",
+    "quantity": 5,
+    "price": 80000,
+    "currency": "MXN"
+  },
+  {
+    "id": 76,
+    "purchase_request_id": 38,
+    "product": "Silla de Plástico",
+    "quantity": 1,
+    "price": 200000,
+    "currency": "MXN"
+  },
+  {
+    "id": 77,
+    "purchase_request_id": 39,
+    "product": "Exprimidor de Jugos",
+    "quantity": 2,
+    "price": 120000,
+    "currency": "COP"
+  },
+  {
+    "id": 78,
+    "purchase_request_id": 39,
+    "product": "Mesa de TV",
+    "quantity": 3,
+    "price": 3500000,
+    "currency": "COP"
+  },
+  {
+    "id": 79,
+    "purchase_request_id": 40,
+    "product": "Plancha para Pelo",
+    "quantity": 3,
+    "price": 60000,
+    "currency": "USD"
+  },
+  {
+    "id": 80,
+    "purchase_request_id": 40,
+    "product": "Silla de Jardín",
+    "quantity": 4,
+    "price": 100000,
+    "currency": "USD"
+  },
+  {
+    "id": 81,
+    "purchase_request_id": 41,
+    "product": "Robot Aspirador",
+    "quantity": 1,
+    "price": 1800000,
+    "currency": "CLP"
+  },
+  {
+    "id": 82,
+    "purchase_request_id": 41,
+    "product": "Mesa de Maquillaje",
+    "quantity": 2,
+    "price": 3000000,
+    "currency": "CLP"
+  },
+  {
+    "id": 83,
+    "purchase_request_id": 42,
+    "product": "Batidora de Mano",
+    "quantity": 4,
+    "price": 80000,
+    "currency": "MXN"
+  },
+  {
+    "id": 84,
+    "purchase_request_id": 42,
+    "product": "Silla de Oficina",
+    "quantity": 1,
+    "price": 200000,
+    "currency": "MXN"
+  },
+  {
+    "id": 85,
+    "purchase_request_id": 43,
+    "product": "Espejo de Baño",
+    "quantity": 2,
+    "price": 120000,
+    "currency": "COP"
+  },
+  {
+    "id": 86,
+    "purchase_request_id": 43,
+    "product": "Mesa de Centro Moderna",
+    "quantity": 3,
+    "price": 3500000,
+    "currency": "COP"
+  },
+  {
+    "id": 87,
+    "purchase_request_id": 44,
+    "product": "Freidora de Aire",
+    "quantity": 5,
+    "price": 60000,
+    "currency": "USD"
+  },
+  {
+    "id": 88,
+    "purchase_request_id": 44,
+    "product": "Silla de Compuerta",
+    "quantity": 1,
+    "price": 100000,
+    "currency": "USD"
+  },
+  {
+    "id": 89,
+    "purchase_request_id": 45,
+    "product": "Cepillo Dental Eléctrico",
+    "quantity": 2,
+    "price": 120000,
+    "currency": "CLP"
+  },
+  {
+    "id": 90,
+    "purchase_request_id": 45,
+    "product": "Mesa de Picnic",
+    "quantity": 4,
+    "price": 3000000,
+    "currency": "CLP"
+  },
+  {
+    "id": 91,
+    "purchase_request_id": 46,
+    "product": "Caja de Herramientas",
+    "quantity": 3,
+    "price": 80000,
+    "currency": "MXN"
+  },
+  {
+    "id": 92,
+    "purchase_request_id": 46,
+    "product": "Silla de Playa",
+    "quantity": 1,
+    "price": 200000,
+    "currency": "MXN"
+  },
+  {
+    "id": 93,
+    "purchase_request_id": 47,
+    "product": "Máquina de Coser",
+    "quantity": 4,
+    "price": 120000,
+    "currency": "COP"
+  },
+  {
+    "id": 94,
+    "purchase_request_id": 47,
+    "product": "Mesa de Billar",
+    "quantity": 2,
+    "price": 3500000,
+    "currency": "COP"
+  },
+  {
+    "id": 95,
+    "purchase_request_id": 48,
+    "product": "Plancha de Ropa",
+    "quantity": 5,
+    "price": 600,
+    "currency": "USD"
+  },
+  {
+    "id": 96,
+    "purchase_request_id": 48,
+    "product": "Computadora Portátil",
+    "quantity": 1,
+    "price": 1000,
+    "currency": "USD"
+  },
+  {
+    "id": 97,
+    "purchase_request_id": 49,
+    "product": "Estufa Eléctrica",
+    "quantity": 2,
+    "price": 120000,
+    "currency": "CLP"
+  },
+  {
+    "id": 98,
+    "purchase_request_id": 49,
+    "product": "Mesa de Cocina",
+    "quantity": 3,
+    "price": 3000000,
+    "currency": "CLP"
+  },
+  {
+    "id": 99,
+    "purchase_request_id": 50,
+    "product": "Licuadora de Inmersión",
+    "quantity": 4,
+    "price": 80000,
+    "currency": "MXN"
+  },
+  {
+    "id": 100,
+    "purchase_request_id": 50,
+    "product": "Silla Ergonómica",
+    "quantity": 1,
+    "price": 200000,
+    "currency": "MXN"
+  }
+]

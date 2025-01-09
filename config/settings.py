@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 import os
 from pathlib import Path
 
+import dj_database_url
 from dotenv import load_dotenv
 
 load_dotenv(override=True)
@@ -103,8 +104,9 @@ if DEBUG:
         }
     }
 else:
-    # change me to production db
-    pass
+    DATABASES = {
+        "default": dj_database_url.parse(os.getenv("DATABASE_URL")),
+    }
 
 
 # Password validation

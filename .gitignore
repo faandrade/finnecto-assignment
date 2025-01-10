@@ -164,3 +164,7 @@ cython_debug/
 tmp
 sql_warning.txt
 .vscode
+
+staticfiles
+
+node_modules

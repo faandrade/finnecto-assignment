@@ -22,6 +22,15 @@
       :items="orders"
       class="elevation-1"
     >
+    <!-- Template para status con v-chip -->
+    <template v-slot:item.status="{ item }">
+        <v-chip
+          :color="getStatusColor(item.status)"
+          text-color="white"
+        >
+          {{ item.status }}
+        </v-chip>
+      </template>
       <!-- Template para la fecha con tooltip -->
       <template v-slot:item.date="{ item }">
         <v-tooltip location="top">
@@ -104,7 +113,7 @@ const selectedProducts = ref([]);
 
 // Headers actualizados con anchos personalizados
 const headers = [
-  { title: 'ID', key: 'id', width: '100px' },
+  //{ title: 'ID', key: 'id', width: '100px' },
   { title: 'Requester', key: 'requester.name', width: '150px' },
   { title: 'Description', key: 'description' },
   { title: 'Type', key: 'type', width: '100px' },
@@ -176,6 +185,19 @@ const fetchClients = async () => {
     clients.value = [];
   }
 };
+
+const getStatusColor = (status) => {
+      switch (status) {
+        case 'APPROVED':
+          return 'green';
+        case 'REJECTED':
+          return 'red';
+        case 'APROVING':
+          return 'grey';
+        default:
+          return 'grey';
+      }
+    };
 
 onMounted(() => {
   fetchClients();

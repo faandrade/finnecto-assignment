@@ -3,6 +3,7 @@ import Components from 'unplugin-vue-components/vite';
 import Vue from '@vitejs/plugin-vue';
 import Vuetify, { transformAssetUrls } from 'vite-plugin-vuetify';
 import ViteFonts from 'unplugin-fonts/vite';
+import VueRouter from 'unplugin-vue-router/vite';
 
 // Utilities
 import { defineConfig, loadEnv } from 'vite';
@@ -13,6 +14,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd());
   return {
     plugins: [
+      VueRouter(),
       Vue({
         template: { transformAssetUrls },
       }),

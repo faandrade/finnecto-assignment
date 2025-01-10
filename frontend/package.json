@@ -12,7 +12,9 @@
     "@mdi/font": "7.4.47",
     "axios": "^1.7.9",
     "roboto-fontface": "*",
+    "unplugin-vue-router": "^0.10.9",
     "vue": "^3.4.31",
+    "vue-router": "^4.5.0",
     "vuetify": "^3.6.14"
   },
   "devDependencies": {

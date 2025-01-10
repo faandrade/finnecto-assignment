@@ -1,16 +1,24 @@
+/**
+ * router/index.ts
+ *
+ * Automatic routes for `./src/pages/*.vue`
+ */
+
+// Composables
 import { createRouter, createWebHistory } from "vue-router";
-import OrdersView from "../views/OrdersView.vue";
+//import { routes } from "vue-router/auto-routes";
+
+const routes = [
+  {
+    path: "/",
+    name: "home",
+    component: () => import("@/components/Orders.vue"),
+  },
+];
 
 const router = createRouter({
-  //history: createWebHistory(import.meta.env.BASE_URL),
   history: createWebHistory("/"),
-  routes: [
-    {
-      path: "/",
-      name: "orders",
-      component: OrdersView,
-    },
-  ],
+  routes,
 });
 
 export default router;

@@ -13,7 +13,6 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 import os
 from pathlib import Path
 
-import dj_database_url
 from dotenv import load_dotenv
 
 load_dotenv(override=True)
@@ -104,6 +103,8 @@ if DEBUG:
         }
     }
 else:
+    import dj_database_url
+
     DATABASES = {
         "default": dj_database_url.parse(os.getenv("DATABASE_URL")),
     }
@@ -149,7 +150,7 @@ USE_TZ = True
 
 STATIC_URL = "/static/"
 
-STATIC_ROOT = BASE_DIR / "staticfiles"
+# STATIC_ROOT = BASE_DIR / "staticfiles"
 
 STATICFILES_DIRS = [
     BASE_DIR / "frontend" / "dist",
